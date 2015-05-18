@@ -1,0 +1,19 @@
+<?php
+
+function pet_menu()
+{
+     $items= array();
+     $items['pets']= array(
+         'title' => "My Pets!",
+         'page callback' => 'pets_display',
+         'access callback' => TRUE,
+         'type' => MENU_NORMAL_ITEM,
+     );
+    return $items;
+ }
+
+
+  function pets_display(){
+          return '<p>Pet Name: nano
+              Pet Age :10</p>';
+  }
