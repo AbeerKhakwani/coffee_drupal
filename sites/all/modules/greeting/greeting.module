@@ -6,7 +6,7 @@ function greeting_menu() {
         'title' => "Hello Abeer!",
         'page callback' => 'say_hello',
         'access callback' => TRUE,
-        'type' => MENU_NORMAL_ITEM,
+        'type' => MENU_CALLBACK,
     );
 
 
@@ -14,7 +14,7 @@ function greeting_menu() {
         'title' => 'Farewell Friend!',
         'page callback' => 'say_farewell',
         'access callback' => TRUE,
-        'type' => MENU_NORMAL_ITEM,
+        'type' => MENU_CALLBACK,
     );
     return $items;
 }

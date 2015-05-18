@@ -1,5 +1,5 @@
-name =Specials
+name = Specials
 description = List out a restaurant's daily specials.
 package = Epicodus Examples
-core 7.x
-files[]= specials.module
+core = 7.x
+files[] = specials.module
