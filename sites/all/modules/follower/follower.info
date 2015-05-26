@@ -1,0 +1,4 @@
+name = Follower Extension
+description = Add more Social Media links
+package= other
+core = 7.x
