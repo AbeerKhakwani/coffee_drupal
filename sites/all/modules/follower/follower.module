@@ -15,4 +15,7 @@ function follower_follow_networks_alter(&$networks, $uid = 0){
         'title' => t('Github'),
         'domain' => 'github.com',
     );
+
+
+
 }
